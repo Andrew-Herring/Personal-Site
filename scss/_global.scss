@@ -3,7 +3,7 @@
 body {
   @include body-font;
   padding-top: 54px;
-  color: $gray-600;
+  color: $gunmetal;
 }
 @media (min-width: 992px) {
   body {
@@ -21,7 +21,7 @@ h6 {
   @include heading-font;
   font-weight: 700;
   text-transform: uppercase;
-  color: $gray-800;
+  color: $gunmetal;
 }
 
 h1 {
@@ -31,6 +31,7 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
+  color: $red;
 }
 
 h3 {
@@ -54,7 +55,7 @@ p.lead {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: $gray-700;
+    background-color: $gunmetal;
     color: $white !important;
     border-radius: 100%;
     text-align: center;
@@ -65,7 +66,7 @@ p.lead {
       margin-right: 0;
     }
     &:hover {
-      background-color: $primary;
+      background-color: $red;
     }
   }
 }
@@ -74,7 +75,7 @@ p.lead {
   font-size: 3rem;
   .list-inline-item i {
     &:hover {
-      color: $primary;
+      color: $red;
     }
   }
 }
